@@ -1,0 +1,30 @@
+[2016-07-14 20:48:25,090][INFO ][node                     ] [Grandmaster] version[1.7.2], pid[11025], build[e43676b/2015-09-14T09:49:53Z]
+[2016-07-14 20:48:25,090][INFO ][node                     ] [Grandmaster] initializing ...
+[2016-07-14 20:48:25,260][INFO ][plugins                  ] [Grandmaster] loaded [], sites []
+[2016-07-14 20:48:25,556][INFO ][env                      ] [Grandmaster] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [203.6gb], net total_space [227.2gb], types [ext4]
+[2016-07-14 20:48:31,305][INFO ][node                     ] [Grandmaster] initialized
+[2016-07-14 20:48:31,305][INFO ][node                     ] [Grandmaster] starting ...
+[2016-07-14 20:48:31,492][INFO ][transport                ] [Grandmaster] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.11:9300]}
+[2016-07-14 20:48:31,562][INFO ][discovery                ] [Grandmaster] elasticsearch/obiIL0iUSeStYr6M0RNQgQ
+[2016-07-14 20:48:35,443][INFO ][cluster.service          ] [Grandmaster] new_master [Grandmaster][obiIL0iUSeStYr6M0RNQgQ][antonio-ThinkPad-SL510][inet[/192.168.0.11:9300]], reason: zen-disco-join (elected_as_master)
+[2016-07-14 20:48:35,481][INFO ][http                     ] [Grandmaster] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.11:9200]}
+[2016-07-14 20:48:35,482][INFO ][node                     ] [Grandmaster] started
+[2016-07-14 20:48:35,657][INFO ][gateway                  ] [Grandmaster] recovered [0] indices into cluster_state
+[2016-07-14 20:50:49,732][INFO ][node                     ] [Grandmaster] stopping ...
+[2016-07-14 20:50:49,787][INFO ][node                     ] [Grandmaster] stopped
+[2016-07-14 20:50:49,788][INFO ][node                     ] [Grandmaster] closing ...
+[2016-07-14 20:50:49,797][INFO ][node                     ] [Grandmaster] closed
+[2016-07-14 20:52:15,206][INFO ][node                     ] [Achelous] version[1.7.2], pid[11452], build[e43676b/2015-09-14T09:49:53Z]
+[2016-07-14 20:52:15,207][INFO ][node                     ] [Achelous] initializing ...
+[2016-07-14 20:52:15,373][INFO ][plugins                  ] [Achelous] loaded [], sites []
+[2016-07-14 20:52:15,556][INFO ][env                      ] [Achelous] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [203.6gb], net total_space [227.2gb], types [ext4]
+[2016-07-14 20:52:20,335][INFO ][node                     ] [Achelous] initialized
+[2016-07-14 20:52:20,335][INFO ][node                     ] [Achelous] starting ...
+[2016-07-14 20:52:20,462][INFO ][transport                ] [Achelous] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.11:9300]}
+[2016-07-14 20:52:20,490][INFO ][discovery                ] [Achelous] elasticsearch/PE3V6aKxRaWpvFDg-17-XA
+[2016-07-14 20:52:24,284][INFO ][cluster.service          ] [Achelous] new_master [Achelous][PE3V6aKxRaWpvFDg-17-XA][antonio-ThinkPad-SL510][inet[/192.168.0.11:9300]], reason: zen-disco-join (elected_as_master)
+[2016-07-14 20:52:24,323][INFO ][http                     ] [Achelous] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.11:9200]}
+[2016-07-14 20:52:24,324][INFO ][node                     ] [Achelous] started
+[2016-07-14 20:52:24,422][INFO ][gateway                  ] [Achelous] recovered [0] indices into cluster_state
+[2016-07-14 20:53:09,085][INFO ][cluster.metadata         ] [Achelous] [movies_development_20160714205307560] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2016-07-14 20:53:11,147][INFO ][cluster.metadata         ] [Achelous] [movies_development_20160714205307560] update_mapping [movie] (dynamic)

@@ -16,7 +16,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-
+gem 'searchkick', '~> 1.3'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
